@@ -18,7 +18,7 @@ const authMiddleware = require("./middleware/authMiddleware");
 const corsOptions = {
     // connect to frontend
     // origin: ["https://mern-chat-l99i.onrender.com", "http://localhost:5173"],
-    origin: "",
+    origin: "https://mern-chat-l99i.onrender.com",
     allowHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"], 
     credentials: true, 
     methods: ['GET', 'POST'],
